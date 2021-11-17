@@ -1,0 +1,37 @@
+.user {
+	background-color: khaki;
+}
+
+.user input {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px 3px 10px;
+}
+
+.user label {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .05em;
+	font-size: 16px;
+}
+
+.user ul {
+	padding-left: 2em;
+}
+
+.user li {
+	list-style: disc;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.user code {
+	font-family: monospace;
+	padding: 1em;
+	color: var(--c-green);
+	background-color: #151515;
+	border: 1px solid var(--c-green);
+	display: inline-block;
+	border-radius: 4px;
+	margin-top: 2em;
+}

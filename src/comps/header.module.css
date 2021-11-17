@@ -1,0 +1,26 @@
+header {
+  padding: 1em 1em .125em 1em;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+  color: var(--c-blue);
+}
+
+header + h3 {
+  line-height: 1;
+  text-align: center;
+  padding-bottom: .75em;
+  font-weight: 500;
+  color: var(--c-blue);
+  border-bottom: solid 2px var(--c-blue);
+}
+
+nav {
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.nav {
+  color: var(--c-green);
+  text-decoration: underline;
+}

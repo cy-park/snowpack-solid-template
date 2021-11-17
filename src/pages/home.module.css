@@ -1,0 +1,17 @@
+.home {
+	background-color: lavender;
+}
+
+.home h2 {
+	margin: .5em 0;
+	font-size: 1.5em;
+}
+
+.home ul {
+	padding-left: 2em;
+}
+
+.home li {
+	list-style: disc;
+	font-size: 20px;
+}

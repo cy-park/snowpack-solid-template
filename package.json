@@ -1,0 +1,46 @@
+{
+  "name": "snowpack-solid-template",
+  "version": "0.1.0",
+  "description": "Snowpack + SolidJS PWA Template",
+  "author": {
+    "name": "Chan Young Park"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "snowpack dev",
+    "dev": "snowpack dev",
+    "build": "npm run build_snowpack && npm run service_worker",
+    "build_snowpack": "snowpack build --clean && npm run cp_htaccess",
+    "service_worker": "node workbox-config.js",
+    "cp_htaccess": "cp public/.htaccess build",
+    "format": "prettier --write \"src/**/*.{ts,js,tsx,jsx}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js,tsx,jsx}\""
+  },
+  "engines": {
+    "node": "^16.13.0"
+  },
+  "dependencies": {
+    "graphql-request": "^3.6.1",
+    "redaxios": "^0.4.1",
+    "solid-app-router": "^0.1.9",
+    "solid-js": "^1.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "@types/snowpack-env": "^2.3.4",
+    "autoprefixer": "^10.3.7",
+    "babel-preset-solid": "^1.1.5",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "prettier": "^2.3.2",
+    "snowpack": "^3.3.2",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5",
+    "workbox-build": "^6.3.0"
+  }
+}

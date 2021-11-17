@@ -1,0 +1,36 @@
+.api h2 {
+	margin: 2.5em 0 1em 0;
+	font-size: 2em;
+}
+
+.api button {
+	border: 2px solid var(--c-green);
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.api button:hover {
+	background-color: var(--c-green);
+	color: #fff;
+}
+
+.api img {
+	max-width: 700px;
+	width:  100%;
+	height: auto;
+}
+
+.api span {
+	font-weight: 600;
+}
+
+.api textarea {
+	width: 100%;
+	max-width:  700px;
+	height: 500px;
+	border: 1px solid var(--c-blue);
+	padding: 1em;
+	border-radius: 4px;
+}

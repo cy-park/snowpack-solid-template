@@ -1,0 +1,27 @@
+.counter {
+	text-align: center;
+}
+
+.counter * {
+	font-family: monospace;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.counter button {
+	padding: .25em 1em;
+	margin:  auto .25em;
+	border-radius: 6px;
+	border: 2px solid var(--c-green);
+	color: var(--c-green);
+}
+
+.counter button:hover {
+	background-color: var(--c-green);
+	color:  #fff;
+}
+
+.counter span {
+	padding: 0 1em;
+	color: var(--c-red);
+}
