@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 1em;
+}
+
+.nav {
+  color: #afbfcf;
+  font-family: monospace;
+}
+
+.nav:hover {
+  color: #99aabb;
+}
