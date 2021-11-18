@@ -19,14 +19,26 @@ npm install
 
 ## Scripts
 
-### `npm start`
+### 📜 `npm start`
 
-Starts dev mode at `http://localhost:8080`.
+- Starts dev mode at `http://localhost:8080`.
 
-### `npm run build`
+### 📜 `npm run build`
 
-Builds a production version in `build` directory with service worker.
+- Builds a production version in `build` directory with service worker.
 
-### `npm run build_snowpack`
+### 📜 `npm run build_snowpack`
 
-Builds a production version in `build` directory without service worker.
+- Builds a production version in `build` directory without service worker.
+
+### 📜 `npm run service_worker`
+
+- Builds service worker.
+
+### 📜 `npm run lint`
+
+- Check if ts/js/tsx/jsx files are neat.
+
+### 📜 `npm run format`
+
+- Format ts/js/tsx/jsx files based on the settings in 🗎`.prettierrc`.
